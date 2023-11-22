@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+}
+
+.logo{
+    /* margin-top: 16px; */
+}
+.banner-content{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50)0%, rgba(51, 168, 219, 0.15)50%, rgba(0, 0, 0, 0.08)100%), url('./assets/images/banner.png');
+    align-items: center;
+}
+
+.logo{
+    padding-top: 32px;
+}
+.banner h1{
+    margin-top: 16px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #33A8DB;
+    font-size: 40px;
+}
+.banner p{
+    margin-top: 16px;
+    color: aliceblue;
+    font-family: 'Raleway';
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    box-sizing: content-box;
+    padding-left: 31%;
+    padding-right: 31%;
+}
+.banner button{
+    margin-top: 26px;
+    justify-items: center;
+    width: auto;
+    border: 2px solid #3BA1CD;
+    background-color: transparent;
+    padding: 19px 91px;
+    gap: 31px;
+    color: #31A8DD;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 3.36px;
+    
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#course-content{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#course-content h2{
+    color: #33A8DB;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    margin-bottom: 24px;
+}
+
+.modules-list{
+    padding-bottom: 26px;
+}
+
+#course-content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.module{
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    width: 535px;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    margin: 26px 31%;
+    padding: 16px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #FFF;
+    
+}
+.module span{
+    color: #33A8DB;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#transform-world{
+    height: 100px;
+
+}
+#transform-world img{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+
+}
+
+#transform-world p{
+    position: absolute;
+    z-index: 1;
+    top: 1050px;
+    left: 100px;
+    width: 244px;
+    color: #FFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#professional-challenges{
+    background-color: black;
+    margin-top: 300px;
+}
+#professional-challenges h2{
+    
+    padding: 26px 21%;
+    color: #33A8DB;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+
+}
+
+.pFooter{
+    padding: 26px 21%;
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer{
+    background-color: black;
+    padding: 59px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p{
+    color: #FFF;
+}
+
+footer a{
+    text-decoration: none;
+}
